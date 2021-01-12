@@ -32,7 +32,7 @@ class SignInPage extends StatelessWidget {
           onPressed: (){
             context.read<AuthenticationService>().singInAnonymous();
           },
-          child: Text('Sign in Anonymously'),
+          child: Text('Soy cliente del Hotel'),
         ),
         RaisedButton(
           onPressed: (){
