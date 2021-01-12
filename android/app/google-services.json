@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549258350352",
+    "project_id": "aiyp-4b813",
+    "storage_bucket": "aiyp-4b813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549258350352:android:297bb0bdf1cd5d9a621f95",
+        "android_client_info": {
+          "package_name": "tec.movil.AIYP"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549258350352-k5vfalmhumam201l7vnerokrdt8v194p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWJR_bD6QyWqpe3TmmdKEChhxx0UyILBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549258350352-k5vfalmhumam201l7vnerokrdt8v194p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
