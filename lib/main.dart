@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.orange,
           visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -46,11 +47,11 @@ class AuthenticationWrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final firebaseUser = context.watch<User>();
-    if(firebaseUser != null) {
-      if(firebaseUser.isAnonymous)
-          return UserPage();
-      else 
-          return AdminPage();
+    if (firebaseUser != null) {
+      if (firebaseUser.isAnonymous)
+        return UserPage();
+      else
+        return AdminPage();
     }
     return SignInPage();
   }
