@@ -11,7 +11,7 @@ class AdminPage extends StatefulWidget {
 }
 
 class _AdminPage extends State<AdminPage> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 2;
   final tabs = [
     Restaurante(),
     Cuartos(),

@@ -26,6 +26,8 @@ dependencies:
   rflutter_alert: ^1.1.0
   #Web View
   webview_flutter: ^1.0.7
+  #Llamadas
+  url_launcher: ^5.7.10
 
 dev_dependencies:
   flutter_test:
