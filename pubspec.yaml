@@ -24,6 +24,8 @@ dependencies:
 
   #Alertas
   rflutter_alert: ^1.1.0
+  #Web View
+  webview_flutter: ^1.0.7
 
 dev_dependencies:
   flutter_test:
